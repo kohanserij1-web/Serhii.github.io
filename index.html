@@ -3,29 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Die Evolution des Lebens</title>
-  <style>
+ <style>
+  body {scroll-behavior: smooth;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f3, #d9e4f5);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.7;
+    color: #2c3e50;
+  }
+
+  h1 {
+    text-align: center;
+    color: #1f3a5f;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+  }
+
+  .section {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  }
+
+  h2 {
+    color: #1e8449;
+    margin-top: 0;
+    border-left: 5px solid #1e8449;
+    padding-left: 10px;
+  }
+
+  p {
+    margin-bottom: 12px;
+    font-size: 1.05em;
+  }
+
+  @media (max-width: 600px) {
     body {
-      font-family: Arial, sans-serif;
-      background-color: #eef2f3;
-      padding: 20px;
-      line-height: 1.6;
+      padding: 10px;
     }
-    h1 {
-      text-align: center;
-      color: #2c3e50;
-    }
-    h2 {
-      color: #1e8449;
-      margin-top: 30px;
-    }
+
     .section {
-      background: white;
-      padding: 20px;
-      margin: 20px auto;
-      border-radius: 10px;
-      max-width: 950px;
+      padding: 18px;
     }
-  </style>
+
+    h1 {
+      font-size: 1.6em;
+    }
+  }
+</style>
 </head>
 
 <body>
